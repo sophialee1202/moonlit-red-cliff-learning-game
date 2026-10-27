@@ -33,7 +33,6 @@ jobs:
           path: dist
 
   deploy:
-    if: vars.PAGES_PUBLISH_ENABLED == 'true'
     needs: build
     runs-on: ubuntu-latest
     permissions:
