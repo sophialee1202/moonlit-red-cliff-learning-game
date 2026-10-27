@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-label="月夜赤壁水墨山水">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#eee9d9"/>
+      <stop offset="1" stop-color="#d9d6c8"/>
+    </linearGradient>
+    <radialGradient id="moonlight">
+      <stop offset="0" stop-color="#fffbe9" stop-opacity=".94"/>
+      <stop offset=".72" stop-color="#f3edda" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#f3edda" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#84928b" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#596e68" stop-opacity=".76"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#paper)"/>
+  <path d="M0 0h1280v330c-152-35-259 7-389-12-151-22-250 20-389-1C347 293 163 339 0 311Z" fill="#e6e2d4"/>
+  <circle cx="944" cy="178" r="132" fill="url(#moonlight)"/>
+  <circle cx="944" cy="178" r="48" fill="#f8f4e6" stroke="#9b9c8d" stroke-width="2"/>
+  <path d="M0 397 95 342l67 18 101-104 65 42 93-100 68 77 91-42 115 96 82-32 101 49 93-56 96 48 107-28v166H0Z" fill="#87918a" opacity=".43"/>
+  <path d="M0 432 100 372l86 28 111-87 69 37 77-68 93 73 82-24 115 61 88-39 95 43 108-35 91 38 85-20v152H0Z" fill="#606f68" opacity=".74"/>
+  <path d="M0 459 113 408l74 25 116-59 96 32 89-46 95 52 103-24 90 34 112-34 106 35 103-27 183 31v293H0Z" fill="#44564f" opacity=".83"/>
+  <path d="M0 470c150-17 257 9 395-3 142-13 264 7 399-1 156-9 305-1 486 8v246H0Z" fill="url(#river)"/>
+  <g fill="none" stroke="#f3f0e4" stroke-linecap="round" opacity=".45">
+    <path d="M70 514c80-17 145 14 234-2s143-11 229 2" stroke-width="3"/>
+    <path d="M766 520c103-11 167 13 260-1s141-7 206 2" stroke-width="2"/>
+    <path d="M120 580c102-10 164 12 270-1s197-13 293 4" stroke-width="2"/>
+    <path d="M708 604c121-14 226 11 326-1s146-5 195 3" stroke-width="3"/>
+    <path d="M220 664c98-9 164 10 241-1s133-8 193 1" stroke-width="2"/>
+  </g>
+  <g fill="none" stroke="#e9e5d7" stroke-linecap="round" opacity=".34">
+    <path d="M0 445c95-22 196-19 293-5" stroke-width="14"/>
+    <path d="M840 452c102-27 220-23 331-8" stroke-width="11"/>
+    <path d="M20 486c95-13 150-11 216-4" stroke-width="8"/>
+  </g>
+  <g transform="translate(534 478)" fill="#293b36" stroke="#293b36" stroke-linejoin="round">
+    <path d="M-91 16 Q-47 48 64 24 L91 10 Q38 23-91 16Z" stroke-width="4"/>
+    <path d="M-18 5V-58l49 63Z" fill="#e7e2d3" stroke-width="3"/>
+    <path d="M-7-18h11" stroke-width="4"/>
+    <path d="M-44 30h89" stroke-width="2" opacity=".55"/>
+  </g>
+  <g fill="none" stroke="#344740" opacity=".32" stroke-linecap="round">
+    <path d="M78 319q25-19 48 0t48 0" stroke-width="4"/>
+    <path d="M1088 354q20-16 40 0t40 0" stroke-width="3"/>
+    <path d="M760 302q16-12 32 0t32 0" stroke-width="3"/>
+  </g>
+</svg>
